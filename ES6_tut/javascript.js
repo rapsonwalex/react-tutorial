@@ -1,7 +1,8 @@
-// var name = "Francis"
-// var lastname = "Jones"
-// var age = 23;
-var createObject = (name,lastname,age) => {
-return {name,lastname,age,}
+function cars(brand){
+    if(!brand){
+        brand = "Ford"
+    }
+    console.log(`My brand is ${brand}`)
 }
-console.log(createObject('Francis','Jones','23')) 
+
+cars()
