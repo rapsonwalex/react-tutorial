@@ -1,4 +1,9 @@
-function cars(brand = "Ford1"){
+function randonBrand(){
+    const brands = ['ford', 'nissan', 'bnw']
+    return brands[Math.floor(Math.random() * brands.length)]
+}
+
+function cars(brand = randonBrand()){
     // if(!brand){
     //     brand = "Ford"
     // }
