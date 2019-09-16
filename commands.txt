@@ -5,3 +5,9 @@ $ npm install -g create-react-app
 $ create-react-app .
 
 $ npm start
+
+
+////////////////////////////////////////
+after cloning from github
+$ npm install
+$ npm start
